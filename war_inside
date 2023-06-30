@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/cat"))()
-local Window = Library:CreateWindow("Torpedo By etern0", Vector2.new(350, 350), Enum.KeyCode.K) 
+local Window = Library:CreateWindow("Torpedo", Vector2.new(350, 350), Enum.KeyCode.K) 
 
 local ESP = Window:CreateTab("ESP")
 local ESP_sec = ESP:CreateSector("Charms", "Left")
@@ -882,7 +882,7 @@ local repo = 'https://raw.githubusercontent.com/wally-rblx/LinoriaLib/main/'
 local Library = loadstring(game:HttpGet(repo .. 'Library.lua'))()
 local ThemeManager = loadstring(game:HttpGet(repo .. 'addons/ThemeManager.lua'))()
 Library:SetWatermarkVisibility(true)
-Library:SetWatermark('"Torpedo | v0.1 | dev by etern0 | beta"')
+Library:SetWatermark('"Torpedo | v0.1 | private | beta"')
 
 --WATERMARK UNDER ZONE
 
